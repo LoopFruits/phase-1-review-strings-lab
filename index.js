@@ -1,6 +1,7 @@
 // Write your code in this file!
 const currentUser = 'Grace Hopper';
 
+//interpolation 
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
 const excitedWelcomeMessage = welcomeMessage.toUpperCase();
@@ -26,3 +27,10 @@ const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
 const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`;
 // allows us to take the first and second elements we stored, being welcome to flat book and grace hopper
+
+//greeting users by their name length 
+
+const currentU = 'Aaragon'
+const grettingMessage =`Welcome To Middle Earth ${currentU.length}!`
+console.log(greetingMessage)
+// => 'Welcome To Middle Earth 7 !
